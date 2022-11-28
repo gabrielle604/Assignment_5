@@ -1,0 +1,58 @@
+---
+title: "Assignment 5"
+author: "Gabrielle"
+date: '2022-11-28'
+output: html_document
+---
+
+
+
+
+### 1. 
+##### An R package that we have not discussed in class that is relevant to my field of study is: “mia”. (mia = MIcrobiome Analysis). [Web link](https://github.com/microbiome/mia) to the source of the package.
+
+I am a MA/PhD student in the Geography Department working with Dr. Susie Cassels. 
+My work sits at the intersection of environmental hazards and health geography. Here is a graphic of my research aims.
+![Alt text](/Users/eva_gabrielle/Documents/GitHub/Assignment_5/aims.png)
+
+Aim 1: What are the socio-demographic patterns
+of microplastic burden observed in the NHANES
+data (years 2001-2016)?
+
+Aim 2: Do the socio-demographic patterns of microplastic exposure vary by geographic location?
+
+
+Aim 3: Does the gut microbiome moderate the impact of environmental exposures on microplastic burden
+in the body?
+
+
+
+
+### 2. 
+##### One paragraph about what the package allows you to do:
+
+mia is a package built for microbiome data analysis and manipulation - essentially to help make the microbiome data tidy. Microbiome data is just one example of data that is organized into hierarchical structures (e.g., phylogenies or cell types). This elicits a need for data containers that store the hierarchical structure together with the biological profile data, and then also proper functions to seemlessly utilize and/or manipulate data at different resolutions. The mia packages feels this need! mia also pairs with miaViz and miaSim, which are for microbiome visualization and generating simulated microbiome data, respectively. This package builds upon the Bioconductor research projects, which is all under the umbrella of the “SummarizedExperiment universe.” The authors seek to improve the “container” for microbiome data, making it easier to organize microbiome data into the optimal structure (hierarchical structure), which would streamline the process of data analysis, and lead to greater efficiency and reproducibility. Additionally, it is designed to work together with other classes commonly used within R, such as SingleCellExperiment class and the phyloseq class, making it compatible with other tools. 
+
+
+
+
+### 3. 
+[Package vignette](https://www.bioconductor.org/packages/release/bioc/html/mia.html)
+
+[miaverse GitHub](https://microbiome.github.io/)
+
+[microbiome in R GitHub](https://microbiome.github.io/tutorials/)
+
+[Summer course, 12 August 2021](https://microbiome.github.io/course_2021_radboud/)
+
+
+
+
+### 4. 
+##### Provide a citation to the R package or published paper about the package suitable for publication:
+
+Ernst F, Shetty S, Borman T, Lahti L (2022). mia: Microbiome analysis. R package version 1.7.0, https://github.com/microbiome/mia.
+
+Research Article regarding TreeSummarized Experiment: 
+Huang R, Soneson C, Ernst FGM, Rue-Albrecht KC, Yu G, Hicks SC, Robinson MD. TreeSummarizedExperiment: a S4 class for data with hierarchical structure. F1000Res. 2020 Oct 15;9:1246. doi: 10.12688/f1000research.26669.2. PMID: 33274053; PMCID: PMC7684683.
+
